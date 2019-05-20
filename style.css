@@ -1,0 +1,219 @@
+/*body*/
+body {
+    margin: 0;
+}
+/* Headder Links*/
+.headderNav {
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+}
+.headderNav img {
+    width: 90%;
+    vertical-align: middle;
+}
+.navImage {
+    width: 3%;
+    margin-top: 0.5%;
+}
+.headderNav li {
+    display: inline-block;
+    margin: 15px 40px;
+}
+.headderNav a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+/*Image Text and Background*/
+.imgTextBackground {
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(248, 247, 247);
+    width: 97%;
+    padding-top: 7%;
+}
+.imgTextBackground h1 {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+.imgTextBackground p {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comingSoonButton{
+    width: 10%;
+    height: 12%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+.imageContainer {
+    width: 20%;
+    transform: rotate(25deg);
+    float: right;
+    border-radius: 20px;
+    margin-right: 9%;
+    margin-top: -10%;
+}
+.clearFloat{
+    clear: both;
+}
+.backImageContainer{
+    width: 20%;
+    transform: rotate(-150deg);
+    float: left;
+    margin-top: -65%;
+    margin-left: 5%;
+    opacity: 0.3;
+
+}
+/*First Row*/
+.outerFirstRowleftSide {
+    float: left;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(48, 48, 54);
+}
+.emptyInnerSection{
+    height: 293px;
+}
+.outerFirstRowleftSide .emptyInnerSection,
+.outreSecondRowRightSide .emptyInnerSection {
+    background-color: rgb(247, 243, 243);
+    width: 70%;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.outerFirstRowleftSide h1, .outreSecondRowRightSide h1 {
+    color: rgb(248, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+.outerFirstRowleftSide p, .outreSecondRowRightSide p {
+    color: rgb(248, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+/*Right side*/
+.outreFirstRowRightSide {
+    float: right;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(248, 247, 247);
+}
+/* first and second row similar style*/
+.outreFirstRowRightSide h1, .outerSecondRowleftSide h1,
+.outerThirdRowLeftSide h1, .outreThirdRowRightSide h1, .outerFourthRowLeftSide h1, .outreFourthRowRightSide h1  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+.outreFirstRowRightSide p, .outerSecondRowleftSide p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: large;
+    margin-top: 0px;
+}
+.outerThirdRowLeftSide p, .outreThirdRowRightSide p, 
+.outreFourthRowRightSide p, .outerFourthRowLeftSide p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-top: 0px;
+}
+.outreFirstRowRightSide .emptyInnerSection,
+.outerSecondRowleftSide .emptyInnerSection {
+    background-color: rgb(48, 48, 54);
+    width: 70%;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.outerSecondRowleftSide {
+    float: left;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(248, 247, 247);
+}
+.outreSecondRowRightSide {
+    float: right;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(35, 126, 245);
+}
+.outerThirdRowLeftSide, .outerFourthRowLeftSide {
+    float: left;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(248, 247, 247);
+}
+.outreThirdRowRightSide, .outreFourthRowRightSide {
+    float: right;
+    width: 47%;
+    margin: 1% 1.5%;
+    padding-top: 5%;
+    text-align: center;
+    background-color: rgb(248, 247, 247);
+}
+.sameInnerStyle {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.footer {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.footer img {
+    width: 25%;
+    margin-top: 15%;
+}
+.features, .resources, .secondResources, .about {
+    display: inline-block;
+    width: 12%;
+}
+.image {
+    width: 12%;
+    margin-left: 20%;
+}
+.features a, .resources a, .secondResources a, .about a {
+    text-decoration: none;
+    color:rgb(126, 122, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.features ul, .resources ul, .secondResources ul, .about ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+.listHeadding {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+
+
+
