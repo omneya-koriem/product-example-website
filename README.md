@@ -1,1 +1,1 @@
-# product-example-website
+made by html and css only
